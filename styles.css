@@ -1,0 +1,24 @@
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+#physics-container {
+	display: block;
+	position: relative;
+	z-index: 1;
+	width: 600px;
+	height: 600px;
+}
+
+#physics-container > * {
+	position: relative;
+	display: inline;
+	box-sizing: border-box;
+}
+
+#physics-container > *::after {
+	content: '';
+	display: block;
+}
+
