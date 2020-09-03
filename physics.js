@@ -99,7 +99,7 @@ var revertToOriginal = function() {
 	World.clear(engine.world);
 	Engine.clear(engine);
 
-	var steps = 60;
+	var steps = 30;
 	var currentStep = 1;
 
 	var animate = function() {
